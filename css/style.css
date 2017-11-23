@@ -1,0 +1,54 @@
+
+@import url('https://fonts.googleapis.com/css?family=Monofett');
+
+*{
+  box-sizing:border-box;
+  margin:0;
+  padding:0;
+}
+
+
+
+.arena {
+  text-align: center;
+  padding:3rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 3rem;
+}
+
+input{
+  /*padding:1rem;*/
+  font-size: 3rem;
+}
+
+.result{
+  text-align: center;
+  font-family: helvetica;
+  color:rgb(187, 189, 171);
+  font-size: 2rem;
+}
+
+button{
+  padding: 1.4rem;
+  border:1px solid black;
+  border-radius: 400px;
+  background: #2b2521;
+  color:white;
+  cursor:pointer;
+  margin-left:10px;
+  font-size: 1rem;
+  outline:none;
+}
+
+button:hover{
+  background:rgb(82, 82, 82);
+}
+
+.rivalNumber{
+  text-align: center;
+  padding:3rem;
+  font-size: 4rem;
+  font-family: 'Monofett', cursive;
+}
